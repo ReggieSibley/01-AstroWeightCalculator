@@ -1,0 +1,44 @@
+body {
+
+	background-image: url("http://3.bp.blogspot.com/-jrksRk-RZr0/UYCMIrNyJwI/AAAAAAAAtwA/fCYrgBCU4Rk/s1600/+Planets+HD+Wallpapers+(1).jpg")
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+}
+
+label {
+	color: #fff;
+}
+
+#wt {
+
+	margin: 20px auto;
+}
+
+#plnt {
+
+margin: 20px auto;
+
+
+}
+
+#userValue {
+
+	color : #fff;
+	font-size: 40px;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	left:0px;
+   	bottom:0px;
+    height:50px;
+    width:100%;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
