@@ -1,0 +1,40 @@
+<!--
+1.Create a basic HTML page, and make sure it has the following HTML elements.
+An [input] element for the user to enter their weight.
+A [select] element for the user to select a planet, populated with option elements where the value attribute is set to the surface gravity for that planet, and the content inside of the option elements represents the name of that planet.
+A button element for the user to calculate their weight based on the above inputs.
+A p element to display the expected output.
+ -->
+
+ <!doctype html>
+
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	</head>
+
+	<body>
+		<form>
+			<label>Enter your weight:</label>
+			<input type="text" name="weight" id="weight_value">
+			<label>Pick a Planet:</label>
+			<select id = "planet_value">
+			  <option value="27.9">Sun</option>
+			  <option value="0.377">Mercury</option>
+			  <option value="0.9032">Venus</option>
+			  <option value="1">Earth</option>
+			  <option value="0.1655">Moon</option>
+			  <option value="0.3895">Mars</option>
+			  <option value="2.640">Jupiter</option>
+			  <option value="1.139">Saturn</option>
+			  <option value="0.917">Uranus</option>
+			  <option value="1.148">Neptune</option>
+			  <option value="0.06">Pluto</option>
+			</select><br>
+
+			<button type="button" onclick = "weightCalculate()">Submit</button>
+			<p id = "userValue"></p>
+		</form>
+		<script src="index.js"></script>
+	</body>
+</html>
